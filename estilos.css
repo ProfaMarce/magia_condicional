@@ -1,0 +1,157 @@
+/* Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo general del cuerpo */
+body {
+  background-color: #4b0101; /* Bordeau oscuro */
+  color: #f5f5dc; /* Beige claro para mejor contraste */
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Encabezado */
+header {
+  background-color: #2d0000;
+  padding: 20px;
+  border-bottom: 3px solid #d4af37; /* dorado */
+  border-radius: 10px;
+}
+
+header h1 {
+  color: #ffd700; /* dorado brillante */
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+/* Títulos de misión */
+h2 {
+  font-size: 1.8em;
+  margin: 20px 0 10px;
+  color: #ffd700;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #ffcc00;
+  margin-top: 15px;
+}
+
+/* Contenedor principal */
+main {
+  background-color: #2f0101;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); /* sombra dorada */
+}
+
+/* Listas */
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* Botones mágicos */
+.boton-magico {
+  background-color: #d4af37; /* dorado */
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 15px 0;
+  transition: background-color 0.3s ease;
+}
+
+.boton-magico:hover {
+  background-color: #ffd700;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+/* Código */
+code {
+  background-color: #4a0303;
+  color: #fff8dc;
+  padding: 3px 6px;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+}
+
+/* iFrame */
+iframe {
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 2px solid #ffd700;
+}
+
+/* Estilo para la introducción con video y animación */
+.intro-condicionales {
+  background-color: #4a0d0d; /* rojo oscuro tipo Gryffindor */
+  color: #f5f5dc; /* beige claro para contraste */
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  border: 2px solid #eeba30; /* dorado */
+  box-shadow: 0 0 10px #000;
+}
+
+.intro-condicionales h2,
+.intro-condicionales h3 {
+  color: #eeba30;
+  font-family: 'Georgia', serif;
+  margin-bottom: 10px;
+}
+
+.video-condicionales iframe {
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 3px solid #eeba30;
+  max-width: 100%;
+}
+
+.simulacion-condicionales {
+  margin-top: 20px;
+}
+
+.simulacion-condicionales button {
+  background-color: #7f0909;
+  color: #f5f5dc;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 12px;
+  margin: 10px;
+  border: 2px solid #eeba30;
+  font-family: 'Georgia', serif;
+  transition: background-color 0.3s;
+}
+
+.simulacion-condicionales button:hover {
+  background-color: #9a1c1c;
+}
+
+#resultado-condicional {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #eeba30;
+  font-weight: bold;
+}
