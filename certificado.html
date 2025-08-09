@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Certificado</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body onload="mostrarCertificado()">
+  <header>
+    <h1>🏆 ¡Felicidades, Hechicera/o!</h1>
+  </header>
+
+  <main class="certificado-container">
+    <p>Has completado exitosamente los tres desafíos del Objeto de Aprendizaje <strong>Magia Condicional</strong>.</p>
+    <p>Demostraste dominio de las estructuras condicionales en Python, y estás listo para seguir explorando el mundo de la programación.</p>
+
+    <div class="certificado" id="area-certificado">
+      <h2>Certificado de Magia Condicional</h2>
+      <p>Otorgado a:</p>
+      <h3 id="nombre-estudiante">[Nombre]</h3>
+      <p>Por completar exitosamente los desafíos de programación condicional.</p>
+      <p>🪄 Hogwarts School of Codecraft</p>
+      <img src="https://i.postimg.cc/PqVdRMW9/hogwarts.webp" alt="Hogwarts" style="width: 200px; margin: 20px auto; display: block;">
+    </div>
+
+    <button onclick="descargarCertificado()">📄 Descargar Certificado</button>
+  </main>
+  
+  <footer>
+    <p>Creado por Marcela Rodríguez – OA Ceibal 2025</p>Licencia abierta
+    <p>Este recurso se distribuye bajo licencia Creative Commons</p> 
+    <p>Atribución – Compartir Igual 4.0 Internacional (CC BY-SA 4.0).</p>
+    <p>https://creativecommons.org/licenses/by-sa/4.0/</p>
+  </footer>
+</body>
+</html>

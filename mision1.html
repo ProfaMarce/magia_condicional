@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Misión 1 - El Sombrero Seleccionador</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1 class="titulo">🔮 Misión 1: El Sombrero Seleccionador</h1>
+  </header>
+
+  <main class="contenedor">
+    <img src="https://i.postimg.cc/g2NpxKTj/sombrero.png" alt="Sombrero Seleccionador" style="width: 200px; margin: 20px auto; display: block;">
+
+    <section>
+      <p>Imaginá que estás frente al Sombrero Seleccionador 🧙‍♂️. Ingresá cuatro valores del 1 al 10 representando tus cualidades:</p>
+      <form onsubmit="asignarCasa(event)">
+        <label>Valentía: <input type="number" id="valentia" min="1" max="10" required></label><br>
+        <label>Ambición: <input type="number" id="ambicion" min="1" max="10" required></label><br>
+        <label>Sabiduría: <input type="number" id="sabiduria" min="1" max="10" required></label><br>
+        <label>Lealtad: <input type="number" id="lealtad" min="1" max="10" required></label><br><br>
+        <button type="submit" class="boton-magico">🧠 Consultar al Sombrero</button>
+      </form>
+      <div id="resultadoCasa" class="resultado"></div>
+    </section>
+
+    <section>
+      <h2>🧪 Desafío de Programación: Sombrero Seleccionador</h2>
+      <p>Crea una función llamada <code>sombrero_seleccionador(valentia, ambicion, sabiduria, lealtad)</code>. El sombrero elegirá una casa según este orden de prioridad:</p>
+      <ul>
+        <li>Si <strong>valentía > 7</strong> → <strong>Gryffindor 🦁</strong></li>
+        <li>Si <strong>ambición > 7</strong> → <strong>Slytherin 🐍</strong></li>
+        <li>Si <strong>sabiduría > 7</strong> → <strong>Ravenclaw 🦅</strong></li>
+        <li>Si <strong>lealtad > 7</strong> → <strong>Hufflepuff 🦡</strong></li>
+        <li>Si ninguna se cumple: "Aún no estás listo para ser asignado."</li>
+      </ul>
+      <p>Probá tu hechizo en el siguiente editor:</p>
+      <iframe src="https://trinket.io/embed/python/94892d461046" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+      <br>
+      <a href="mision2.html" class="boton-magico">▶️ Continuar a Misión 2</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Creado por Marcela Rodríguez – OA Ceibal 2025</p>Licencia abierta
+    <p>Este recurso se distribuye bajo licencia Creative Commons</p> 
+    <p>Atribución – Compartir Igual 4.0 Internacional (CC BY-SA 4.0).</p>
+    <p>https://creativecommons.org/licenses/by-sa/4.0/</p>
+  </footer>
+</body>
+</html>
